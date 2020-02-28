@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>c++</title>
+    <url>/2020/02/28/C++/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>c</title>
+    <url>/2020/02/28/C/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>C</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python</title>
+    <url>/2020/02/28/Python/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>c#</title>
+    <url>/2020/02/28/C#/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>C#</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>object-c</title>
+    <url>/2020/02/28/object-c/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>object-c</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>javaEE</title>
     <url>/2020/02/28/javaEE/</url>
     <content><![CDATA[]]></content>
