@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>1400</title>
+    <url>/2020/06/02/1400/</url>
+    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">  float f,c;</span><br><span class="line"></span><br><span class="line">  scanf(&quot;%f&quot;,&amp;f);</span><br><span class="line"></span><br><span class="line">  c&#x3D;5*(f-32)&#x2F;9;</span><br><span class="line"></span><br><span class="line">  printf(&quot;c&#x3D;%.1f\n&quot;,c);</span><br><span class="line"></span><br><span class="line">  return 0;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <tags>
+        <tag>C</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>更新日志2020.1.20</title>
     <url>/2020/01/20/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%972020-1-20/</url>
     <content><![CDATA[<p>1.此次更新优化shizuku，可以在大部分mobile端可看。</p>
