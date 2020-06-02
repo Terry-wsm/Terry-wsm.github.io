@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>1411</title>
+    <url>/2020/06/02/1411/</url>
+    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">#include &lt;string.h&gt;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line"></span><br><span class="line">	int i,length;</span><br><span class="line"></span><br><span class="line">	char str1[80],str2[80];</span><br><span class="line"></span><br><span class="line">	&#x2F;&#x2F;printf(&quot;Please enter a string:&quot;);</span><br><span class="line"></span><br><span class="line">	gets(str1);</span><br><span class="line"></span><br><span class="line">	length&#x3D;strlen(str1);</span><br><span class="line"></span><br><span class="line">	for(i&#x3D;0;i&lt;length;i++)</span><br><span class="line"></span><br><span class="line">	</span><br><span class="line">		str2[i]&#x3D;str1[length-i-1];</span><br><span class="line"></span><br><span class="line">	str2[i]&#x3D;&#39;\0&#39;;</span><br><span class="line"></span><br><span class="line">	if(strcmp(str1, str2) &#x3D;&#x3D; 0)</span><br><span class="line"></span><br><span class="line">		printf(&quot;Yes\n&quot;);</span><br><span class="line"></span><br><span class="line">	else</span><br><span class="line"></span><br><span class="line">		printf(&quot;No\n&quot;);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">return 0;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <tags>
+        <tag>c</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>1410</title>
+    <url>/2020/06/02/1410/</url>
+    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line"></span><br><span class="line">	int cj,yx,tg,bjg;</span><br><span class="line"></span><br><span class="line">	yx&#x3D;tg&#x3D;bjg&#x3D;0;</span><br><span class="line"></span><br><span class="line">	do &#123;</span><br><span class="line"></span><br><span class="line">	  scanf(&quot;%d&quot;,&amp;cj);</span><br><span class="line"></span><br><span class="line">	  if(cj&gt;&#x3D;85)</span><br><span class="line"></span><br><span class="line">		yx++;</span><br><span class="line"></span><br><span class="line">	  else if (cj&lt;84&amp;&amp;cj&gt;&#x3D;60)</span><br><span class="line"></span><br><span class="line">		tg++;</span><br><span class="line"></span><br><span class="line">	  else</span><br><span class="line"></span><br><span class="line">		bjg++;</span><br><span class="line"></span><br><span class="line">	&#125;while(cj&gt;0);</span><br><span class="line"></span><br><span class="line">	printf(&quot;&gt;&#x3D;85:%d\n&quot;,yx);</span><br><span class="line"></span><br><span class="line">	printf(&quot;60-84:%d\n&quot;,tg);</span><br><span class="line"></span><br><span class="line">	printf(&quot;&lt;60:%d\n&quot;,bjg-1);</span><br><span class="line"></span><br><span class="line">return 0;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <tags>
+        <tag>c</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>1409</title>
+    <url>/2020/06/02/1409/</url>
+    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line"></span><br><span class="line">	int i,j,s;</span><br><span class="line"></span><br><span class="line">	for(i&#x3D;1;i&lt;&#x3D;1000;i++)&#123;</span><br><span class="line"></span><br><span class="line">	s&#x3D;0;</span><br><span class="line"></span><br><span class="line">	for(j&#x3D;1;j&lt;i;j++)</span><br><span class="line"></span><br><span class="line">		if(i%j&#x3D;&#x3D;0) s&#x3D;j+s;</span><br><span class="line"></span><br><span class="line">	if(s&#x3D;&#x3D;i)printf(&quot;%d\n&quot;,s);</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">return 0;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>求完数</p>
+]]></content>
+      <tags>
+        <tag>c</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>1408</title>
     <url>/2020/06/02/1408/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line"></span><br><span class="line">	 int f1,f2,f3,n;</span><br><span class="line"></span><br><span class="line">	 f1&#x3D;f2&#x3D;1;</span><br><span class="line"></span><br><span class="line">	 printf(&quot;%d,%d,&quot;,f1,f2);</span><br><span class="line"></span><br><span class="line">	 for(n&#x3D;3;n&lt;&#x3D;10;n++)&#123;</span><br><span class="line"></span><br><span class="line">	    f3&#x3D;f1+f2;</span><br><span class="line"></span><br><span class="line">	    printf(&quot;%d,&quot;,f3);</span><br><span class="line"></span><br><span class="line">	    f1&#x3D;f2;</span><br><span class="line"></span><br><span class="line">	    f2&#x3D;f3;</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	printf(&quot;\n&quot;);</span><br><span class="line"></span><br><span class="line">return 0;&#125;</span><br></pre></td></tr></table></figure>]]></content>
@@ -28,17 +55,6 @@
     <title>1404</title>
     <url>/2020/06/02/1404/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include   &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">#include   &lt;math.h&gt;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line"></span><br><span class="line">	float a,b,c,s1,area;</span><br><span class="line"></span><br><span class="line">	scanf(&quot;%f %f %f&quot;,&amp;a,&amp;b,&amp;c);</span><br><span class="line"></span><br><span class="line">	if((a+b&gt;c)&amp;&amp;(a+c&gt;b)&amp;&amp;(b+c&gt;a))</span><br><span class="line">	&#123;s1&#x3D;(a+b+c)&#x2F;2.0;</span><br><span class="line"></span><br><span class="line">	area&#x3D;sqrt(s1*(s1-a)*(s1-b)*(s1-c));</span><br><span class="line"></span><br><span class="line">	printf(&quot;area&#x3D;%.1f\n&quot;,area);</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	else</span><br><span class="line"></span><br><span class="line">		printf(&quot;不能构成三角形\n&quot;);</span><br><span class="line"></span><br><span class="line">return 0;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <tags>
-        <tag>c</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>1409</title>
-    <url>/2020/06/02/1409/</url>
-    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line"></span><br><span class="line">	int i,j,s;</span><br><span class="line"></span><br><span class="line">	for(i&#x3D;1;i&lt;&#x3D;1000;i++)&#123;</span><br><span class="line"></span><br><span class="line">	s&#x3D;0;</span><br><span class="line"></span><br><span class="line">	for(j&#x3D;1;j&lt;i;j++)</span><br><span class="line"></span><br><span class="line">		if(i%j&#x3D;&#x3D;0) s&#x3D;j+s;</span><br><span class="line"></span><br><span class="line">	if(s&#x3D;&#x3D;i)printf(&quot;%d\n&quot;,s);</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">return 0;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>求完数</p>
-]]></content>
       <tags>
         <tag>c</tag>
       </tags>
