@@ -1,54 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>c++</title>
-    <url>/2020/02/28/C++/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>c</title>
-    <url>/2020/02/28/C/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>C</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Python</title>
-    <url>/2020/02/28/Python/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>c#</title>
-    <url>/2020/02/28/C#/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>C#</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>object-c</title>
-    <url>/2020/02/28/object-c/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>object-c</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>javaEE</title>
-    <url>/2020/02/28/javaEE/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>JAVAEE</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>更新日志2020.1.20</title>
     <url>/2020/01/20/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%972020-1-20/</url>
     <content><![CDATA[<p>1.此次更新优化shizuku，可以在大部分mobile端可看。</p>
