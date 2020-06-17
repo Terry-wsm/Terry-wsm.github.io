@@ -1,96 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>1420</title>
-    <url>/2020/06/09/1420/</url>
+    <title>1420教材:P122例8.5验证哥德巴赫猜想</title>
+    <url>/2020/06/09/1420%E6%95%99%E6%9D%90P122%E4%BE%8B8.5%E9%AA%8C%E8%AF%81%E5%93%A5%E5%BE%B7%E5%B7%B4%E8%B5%AB%E7%8C%9C%E6%83%B3/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">#include &lt;math.h&gt;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line"></span><br><span class="line">	long x,j;</span><br><span class="line"></span><br><span class="line">	int isprime(long x);&#x2F;&#x2F;????????</span><br><span class="line"></span><br><span class="line">	do&#123;</span><br><span class="line"></span><br><span class="line">		scanf(&quot;%ld&quot;,&amp;x);</span><br><span class="line"></span><br><span class="line">	&#125;while(x&lt;4||x%2);</span><br><span class="line"></span><br><span class="line">	for(j&#x3D;2;j&lt;&#x3D;x&#x2F;2;j++)</span><br><span class="line"></span><br><span class="line">		if(isprime(j)&amp;&amp;isprime(x-j))&#123;&#x2F;&#x2F;????????</span><br><span class="line"></span><br><span class="line">			printf(&quot;%ld&#x3D;%ld+%ld\n&quot;,x,j,x-j);</span><br><span class="line"></span><br><span class="line">		break;	&#125;</span><br><span class="line"></span><br><span class="line">if(j&gt;x&#x2F;2)&#123;</span><br><span class="line"></span><br><span class="line">printf(&quot;哥德巴赫猜想不成立\n&quot;);</span><br><span class="line"></span><br><span class="line">printf(&quot;偶数%ld不能分解成两个素数之和。\n&quot;,x);&#125;</span><br><span class="line"></span><br><span class="line">return 0;&#125;</span><br><span class="line"></span><br><span class="line">int isprime(long x)&#123;&#x2F;&#x2F;??????????</span><br><span class="line"></span><br><span class="line">	long i;</span><br><span class="line"></span><br><span class="line">	for(i&#x3D;2;i&lt;&#x3D;sqrt(x);i++)</span><br><span class="line"></span><br><span class="line">		if(x%i&#x3D;&#x3D;0)return 0;</span><br><span class="line"></span><br><span class="line">return 1;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>c</tag>
       </tags>
   </entry>
   <entry>
-    <title>1419</title>
-    <url>/2020/06/09/1419/</url>
+    <title>1419教材:第7章118例8.1利用函数进行阶乘求和</title>
+    <url>/2020/06/09/1419%E6%95%99%E6%9D%90%E7%AC%AC7%E7%AB%A0118%E4%BE%8B8.1%E5%88%A9%E7%94%A8%E5%87%BD%E6%95%B0%E8%BF%9B%E8%A1%8C%E9%98%B6%E4%B9%98%E6%B1%82%E5%92%8C/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">long fac(int k)</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">  long p;</span><br><span class="line"></span><br><span class="line">  int i;</span><br><span class="line"></span><br><span class="line">  p&#x3D;1;</span><br><span class="line"></span><br><span class="line">  for(i&#x3D;1;i&lt;&#x3D;k;i++)</span><br><span class="line"></span><br><span class="line">	p*&#x3D;i;</span><br><span class="line"></span><br><span class="line">  return p;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">  long sum&#x3D;0;</span><br><span class="line"></span><br><span class="line">  int i;</span><br><span class="line"></span><br><span class="line">  for(i&#x3D;1;i&lt;&#x3D;10;i++)</span><br><span class="line"></span><br><span class="line">	sum+&#x3D;fac(i);</span><br><span class="line"></span><br><span class="line">  printf(&quot;S&#x3D;%ld\n&quot;,sum);</span><br><span class="line"></span><br><span class="line">  return 0;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>c</tag>
       </tags>
   </entry>
   <entry>
-    <title>1418</title>
-    <url>/2020/06/09/1418/</url>
+    <title>1418试题汇编:二11函数十进制转成十六进制</title>
+    <url>/2020/06/09/1418%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96%E4%BA%8C11%E5%87%BD%E6%95%B0%E5%8D%81%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%88%90%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B6/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int DtoH(int n)&#123;</span><br><span class="line"></span><br><span class="line">              int k&#x3D;n &amp; 0xf;</span><br><span class="line"></span><br><span class="line">              if(n&gt;&gt;4!&#x3D;0)DtoH(n&gt;&gt;4);</span><br><span class="line"></span><br><span class="line">              if(k&lt;10)</span><br><span class="line"></span><br><span class="line">	         putchar(&#39;0&#39;+k);</span><br><span class="line"></span><br><span class="line">              else</span><br><span class="line"></span><br><span class="line">	        putchar(&#39;a&#39;+k-10);</span><br><span class="line"></span><br><span class="line">              return 0;</span><br><span class="line"></span><br><span class="line">             &#125;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line"></span><br><span class="line">	int a[4]&#x3D;&#123;28,31,255,378&#125;,i;</span><br><span class="line"></span><br><span class="line">	for(i&#x3D;0;i&lt;4;i++)&#123;</span><br><span class="line"></span><br><span class="line">	printf(&quot;%d--&gt;&quot;,a[i]);</span><br><span class="line"></span><br><span class="line">	DtoH(a[i]);</span><br><span class="line"></span><br><span class="line">	putchar(&#39;\n&#39;);</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">return 0;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>c</tag>
       </tags>
   </entry>
   <entry>
-    <title>1417</title>
-    <url>/2020/06/09/1417/</url>
+    <title>1417习题与实践指导:第7章7.1函数f(x)的最大值</title>
+    <url>/2020/06/09/1417%E4%B9%A0%E9%A2%98%E4%B8%8E%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%AF%BC%E7%AC%AC7%E7%AB%A07.1%E5%87%BD%E6%95%B0f(x)%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">#include &lt;math.h&gt;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line"></span><br><span class="line">	float f(float x),x,max;</span><br><span class="line"></span><br><span class="line">	max&#x3D;f(1);</span><br><span class="line"></span><br><span class="line">	for(x&#x3D;2;x&lt;&#x3D;10;x++)</span><br><span class="line"></span><br><span class="line">	if (f(x)&gt;max)max&#x3D;f(x);</span><br><span class="line"></span><br><span class="line">	printf(&quot;%.3f&quot;,max);</span><br><span class="line"></span><br><span class="line">return 0;&#125;</span><br><span class="line"></span><br><span class="line">float f(float x)&#123;</span><br><span class="line"></span><br><span class="line">float y;</span><br><span class="line"></span><br><span class="line">y&#x3D;(float)x-10*cos(x)-5*sin(x);</span><br><span class="line"></span><br><span class="line">return y;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>c</tag>
       </tags>
   </entry>
   <entry>
-    <title>1416</title>
-    <url>/2020/06/09/1416/</url>
+    <title>1416教材:109例7.9十六进制转十进制</title>
+    <url>/2020/06/09/1416%E6%95%99%E6%9D%90109%E4%BE%8B7.9%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B6%E8%BD%AC%E5%8D%81%E8%BF%9B%E5%88%B6/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">#include &lt;ctype.h&gt;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line"></span><br><span class="line">	char h[8];</span><br><span class="line"></span><br><span class="line">	int num&#x3D;0,m,i&#x3D;0;</span><br><span class="line"></span><br><span class="line">	gets(h);</span><br><span class="line"></span><br><span class="line">	while(h[i]!&#x3D;&#39;\0&#39;)&#123;</span><br><span class="line"></span><br><span class="line">		if(isalpha(h[i]))h[i]&#x3D;toupper(h[i]);</span><br><span class="line"></span><br><span class="line">		switch(h[i])&#123;</span><br><span class="line"></span><br><span class="line">			case &#39;A&#39;:m&#x3D;10;break;</span><br><span class="line"></span><br><span class="line">			case &#39;B&#39;:m&#x3D;11;break;</span><br><span class="line"></span><br><span class="line">			case &#39;C&#39;:m&#x3D;12;break;</span><br><span class="line"></span><br><span class="line">			case &#39;D&#39;:m&#x3D;13;break;</span><br><span class="line"></span><br><span class="line">			case &#39;E&#39;:m&#x3D;14;break;</span><br><span class="line"></span><br><span class="line">			case &#39;F&#39;:m&#x3D;15;break;</span><br><span class="line"></span><br><span class="line">			default:</span><br><span class="line"></span><br><span class="line">			m&#x3D;h[i]-&#39;0&#39;;</span><br><span class="line"></span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">	num&#x3D;num*16+m;i++;&#125;</span><br><span class="line"></span><br><span class="line">	printf(&quot;%d\n&quot;,num);	</span><br><span class="line"></span><br><span class="line">return 0;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>c</tag>
       </tags>
   </entry>
   <entry>
-    <title>1415</title>
-    <url>/2020/06/09/1415/</url>
+    <title>1415教材:第6章例7.8选择排序法</title>
+    <url>/2020/06/09/1415%E6%95%99%E6%9D%90%E7%AC%AC6%E7%AB%A0%E4%BE%8B7.8%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F%E6%B3%95/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">#define N 10</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line"></span><br><span class="line">	int a[N],t,i,j,k;</span><br><span class="line"></span><br><span class="line">	&#x2F;&#x2F;printf(&quot;Input 10 numbers!\n&quot;);</span><br><span class="line"></span><br><span class="line">	for(i&#x3D;0;i&lt;10;i++)</span><br><span class="line"></span><br><span class="line">		scanf(&quot;%d&quot;,&amp;a[i]);</span><br><span class="line"></span><br><span class="line">	for(i&#x3D;0;i&lt;9;i++)</span><br><span class="line"></span><br><span class="line">		&#123;k&#x3D;i;</span><br><span class="line"></span><br><span class="line">		for(j&#x3D;i+1;j&lt;N;j++)</span><br><span class="line"></span><br><span class="line">			if(a[k]&gt;a[j])k&#x3D;j;</span><br><span class="line"></span><br><span class="line">		if(k!&#x3D;i)</span><br><span class="line"></span><br><span class="line">		&#123;t&#x3D;a[i];a[i]&#x3D;a[k];a[k]&#x3D;t;&#125;</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	printf(&quot;The sorted number:\n&quot;);</span><br><span class="line"></span><br><span class="line">	for(i&#x3D;0;i&lt;N;i++)</span><br><span class="line"></span><br><span class="line">	printf(&quot;%d &quot;,a[i]);		</span><br><span class="line"></span><br><span class="line">return 0;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>c</tag>
       </tags>
   </entry>
   <entry>
-    <title>1414</title>
-    <url>/2020/06/09/1414/</url>
+    <title>1414习题与实践指导:第6章653冒泡排序法</title>
+    <url>/2020/06/09/1414%E4%B9%A0%E9%A2%98%E4%B8%8E%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%AF%BC%E7%AC%AC6%E7%AB%A0653%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F%E6%B3%95/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"> #include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line"></span><br><span class="line">	int i,j,t,a[10];</span><br><span class="line"> 	&#x2F;&#x2F;printf(&quot;Enter 10 integer:&quot; );</span><br><span class="line">	for(i&#x3D;0;i&lt;10;i++)</span><br><span class="line">		scanf(&quot;%d&quot;,&amp;a[i]);</span><br><span class="line">	for(i&#x3D;1;i&lt;10;i++)</span><br><span class="line">		for(j&#x3D;0;j&lt;10-i;j++)</span><br><span class="line">			if(a[j]&lt;a[j+1])&#123;</span><br><span class="line">			t&#x3D;a[j];a[j]&#x3D;a[j+1];a[j+1]&#x3D;t;&#125;</span><br><span class="line">	printf(&quot;After sorted:&quot;);</span><br><span class="line">	for(i&#x3D;0;i&lt;10;i++)</span><br><span class="line">				printf(&quot;%d &quot;,a[i]);</span><br><span class="line">		printf(&quot;\n&quot;);</span><br><span class="line">	return 0;</span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>c</tag>
       </tags>
   </entry>
   <entry>
-    <title>1413</title>
-    <url>/2020/06/09/1413/</url>
+    <title>1413习题与实践指导:第6章648十进制转二进制</title>
+    <url>/2020/06/09/1413%E4%B9%A0%E9%A2%98%E4%B8%8E%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%AF%BC%E7%AC%AC6%E7%AB%A0648%E5%8D%81%E8%BF%9B%E5%88%B6%E8%BD%AC%E4%BA%8C%E8%BF%9B%E5%88%B6/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line"></span><br><span class="line">	int a[11]&#x3D;&#123;-8,1,3,7,12,23,45,66,87,102&#125;,i,x;</span><br><span class="line"></span><br><span class="line">	scanf(&quot;%d&quot;,&amp;x);</span><br><span class="line"></span><br><span class="line">	for(i&#x3D;9;i&gt;&#x3D;0;i--)</span><br><span class="line"></span><br><span class="line">		if(a[i]&gt;x)</span><br><span class="line"></span><br><span class="line">			a[i+1]&#x3D;a[i];</span><br><span class="line"></span><br><span class="line">		else</span><br><span class="line"></span><br><span class="line">			break;</span><br><span class="line"></span><br><span class="line">		a[i+1]&#x3D;x;</span><br><span class="line"></span><br><span class="line">		for(i&#x3D;0;i&lt;11;i++)</span><br><span class="line"></span><br><span class="line">			printf(&quot;%d &quot;,a[i]);</span><br><span class="line"></span><br><span class="line">return 0;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>c</tag>
       </tags>
   </entry>
   <entry>
-    <title>1412</title>
-    <url>/2020/06/02/1412/</url>
+    <title>1412习题与实践指导:第6章647将一个数插入到有序数列中</title>
+    <url>/2020/06/02/1412%E4%B9%A0%E9%A2%98%E4%B8%8E%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%AF%BC%E7%AC%AC6%E7%AB%A0647%E5%B0%86%E4%B8%80%E4%B8%AA%E6%95%B0%E6%8F%92%E5%85%A5%E5%88%B0%E6%9C%89%E5%BA%8F%E6%95%B0%E5%88%97%E4%B8%AD/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line"></span><br><span class="line">	int a[11]&#x3D;&#123;-8,1,3,7,12,23,45,66,87,102&#125;,i,x;</span><br><span class="line"></span><br><span class="line">	scanf(&quot;%d&quot;,&amp;x);</span><br><span class="line"></span><br><span class="line">	for(i&#x3D;9;i&gt;&#x3D;0;i--)</span><br><span class="line"></span><br><span class="line">		if(a[i]&gt;x)</span><br><span class="line"></span><br><span class="line">		a[i+1]&#x3D;a[i];</span><br><span class="line"></span><br><span class="line">		else</span><br><span class="line"></span><br><span class="line">			break;</span><br><span class="line"></span><br><span class="line">		a[i+1]&#x3D;x;</span><br><span class="line"></span><br><span class="line">		for(i&#x3D;0;i&lt;11;i++)</span><br><span class="line"></span><br><span class="line">			printf(&quot;%d &quot;,a[i]);</span><br><span class="line"></span><br><span class="line">return 0;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>c</tag>
       </tags>
   </entry>
   <entry>
-    <title>1411</title>
-    <url>/2020/06/02/1411/</url>
+    <title>1411习题与实践指导:第6章63对称字符串，又名“回文”</title>
+    <url>/2020/06/02/1411%E4%B9%A0%E9%A2%98%E4%B8%8E%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%AF%BC%E7%AC%AC6%E7%AB%A063%E5%AF%B9%E7%A7%B0%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%8C%E5%8F%88%E5%90%8D%E2%80%9C%E5%9B%9E%E6%96%87%E2%80%9D/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">#include &lt;string.h&gt;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line"></span><br><span class="line">	int i,length;</span><br><span class="line"></span><br><span class="line">	char str1[80],str2[80];</span><br><span class="line"></span><br><span class="line">	&#x2F;&#x2F;printf(&quot;Please enter a string:&quot;);</span><br><span class="line"></span><br><span class="line">	gets(str1);</span><br><span class="line"></span><br><span class="line">	length&#x3D;strlen(str1);</span><br><span class="line"></span><br><span class="line">	for(i&#x3D;0;i&lt;length;i++)</span><br><span class="line"></span><br><span class="line">	</span><br><span class="line">		str2[i]&#x3D;str1[length-i-1];</span><br><span class="line"></span><br><span class="line">	str2[i]&#x3D;&#39;\0&#39;;</span><br><span class="line"></span><br><span class="line">	if(strcmp(str1, str2) &#x3D;&#x3D; 0)</span><br><span class="line"></span><br><span class="line">		printf(&quot;Yes\n&quot;);</span><br><span class="line"></span><br><span class="line">	else</span><br><span class="line"></span><br><span class="line">		printf(&quot;No\n&quot;);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">return 0;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>c</tag>
       </tags>
   </entry>
   <entry>
-    <title>1410</title>
-    <url>/2020/06/02/1410/</url>
+    <title>1410习题与实践指导:第5章5511统计成绩分数段人数</title>
+    <url>/2020/06/02/1410%E4%B9%A0%E9%A2%98%E4%B8%8E%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%AF%BC%E7%AC%AC5%E7%AB%A05511%E7%BB%9F%E8%AE%A1%E6%88%90%E7%BB%A9%E5%88%86%E6%95%B0%E6%AE%B5%E4%BA%BA%E6%95%B0/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line"></span><br><span class="line">	int cj,yx,tg,bjg;</span><br><span class="line"></span><br><span class="line">	yx&#x3D;tg&#x3D;bjg&#x3D;0;</span><br><span class="line"></span><br><span class="line">	do &#123;</span><br><span class="line"></span><br><span class="line">	  scanf(&quot;%d&quot;,&amp;cj);</span><br><span class="line"></span><br><span class="line">	  if(cj&gt;&#x3D;85)</span><br><span class="line"></span><br><span class="line">		yx++;</span><br><span class="line"></span><br><span class="line">	  else if (cj&lt;84&amp;&amp;cj&gt;&#x3D;60)</span><br><span class="line"></span><br><span class="line">		tg++;</span><br><span class="line"></span><br><span class="line">	  else</span><br><span class="line"></span><br><span class="line">		bjg++;</span><br><span class="line"></span><br><span class="line">	&#125;while(cj&gt;0);</span><br><span class="line"></span><br><span class="line">	printf(&quot;&gt;&#x3D;85:%d\n&quot;,yx);</span><br><span class="line"></span><br><span class="line">	printf(&quot;60-84:%d\n&quot;,tg);</span><br><span class="line"></span><br><span class="line">	printf(&quot;&lt;60:%d\n&quot;,bjg-1);</span><br><span class="line"></span><br><span class="line">return 0;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>c</tag>
       </tags>
   </entry>
   <entry>
-    <title>1409</title>
-    <url>/2020/06/02/1409/</url>
+    <title>1409习题与实践指导:第5章549完数</title>
+    <url>/2020/06/02/1409%E4%B9%A0%E9%A2%98%E4%B8%8E%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%AF%BC%E7%AC%AC5%E7%AB%A0549%E5%AE%8C%E6%95%B0/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line"></span><br><span class="line">	int i,j,s;</span><br><span class="line"></span><br><span class="line">	for(i&#x3D;1;i&lt;&#x3D;1000;i++)&#123;</span><br><span class="line"></span><br><span class="line">	s&#x3D;0;</span><br><span class="line"></span><br><span class="line">	for(j&#x3D;1;j&lt;i;j++)</span><br><span class="line"></span><br><span class="line">		if(i%j&#x3D;&#x3D;0) s&#x3D;j+s;</span><br><span class="line"></span><br><span class="line">	if(s&#x3D;&#x3D;i)printf(&quot;%d\n&quot;,s);</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">return 0;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>求完数</p>
@@ -100,24 +100,24 @@
       </tags>
   </entry>
   <entry>
-    <title>1408</title>
-    <url>/2020/06/02/1408/</url>
+    <title>1408习题与实践指导:第5章543斐波那契数列(Fibonacci)</title>
+    <url>/2020/06/02/1408%E4%B9%A0%E9%A2%98%E4%B8%8E%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%AF%BC%E7%AC%AC5%E7%AB%A0543%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97(Fibonacci)/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line"></span><br><span class="line">	 int f1,f2,f3,n;</span><br><span class="line"></span><br><span class="line">	 f1&#x3D;f2&#x3D;1;</span><br><span class="line"></span><br><span class="line">	 printf(&quot;%d,%d,&quot;,f1,f2);</span><br><span class="line"></span><br><span class="line">	 for(n&#x3D;3;n&lt;&#x3D;10;n++)&#123;</span><br><span class="line"></span><br><span class="line">	    f3&#x3D;f1+f2;</span><br><span class="line"></span><br><span class="line">	    printf(&quot;%d,&quot;,f3);</span><br><span class="line"></span><br><span class="line">	    f1&#x3D;f2;</span><br><span class="line"></span><br><span class="line">	    f2&#x3D;f3;</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	printf(&quot;\n&quot;);</span><br><span class="line"></span><br><span class="line">return 0;&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>c</tag>
       </tags>
   </entry>
   <entry>
-    <title>1407</title>
-    <url>/2020/06/02/1407/</url>
+    <title>1407习题与实践指导:第5章542水仙花数</title>
+    <url>/2020/06/02/1407%E4%B9%A0%E9%A2%98%E4%B8%8E%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%AF%BC%E7%AC%AC5%E7%AB%A0542%E6%B0%B4%E4%BB%99%E8%8A%B1%E6%95%B0/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">	 int n,a,b,c;</span><br><span class="line"></span><br><span class="line">	 for(n&#x3D;100;n&lt;1000;n++ )</span><br><span class="line"></span><br><span class="line">         &#123;</span><br><span class="line"></span><br><span class="line">	   a&#x3D;n&#x2F;100;</span><br><span class="line"></span><br><span class="line">	   b&#x3D;(n&#x2F;10)%10;</span><br><span class="line"></span><br><span class="line">	   c&#x3D;n%10;</span><br><span class="line"></span><br><span class="line">	   if(((a*a*a)+(b*b*b)+(c*c*c))&#x3D;&#x3D;n)</span><br><span class="line"></span><br><span class="line">	   printf(&quot;%d\n&quot;,n);</span><br><span class="line"></span><br><span class="line">	 &#125;</span><br><span class="line"></span><br><span class="line">return 0;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>c</tag>
       </tags>
   </entry>
   <entry>
-    <title>1405</title>
-    <url>/2020/06/02/1405/</url>
+    <title>1405习题与实践指导:第4章443分段函数应用</title>
+    <url>/2020/06/02/1405%E4%B9%A0%E9%A2%98%E4%B8%8E%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%AF%BC%E7%AC%AC4%E7%AB%A0443%E5%88%86%E6%AE%B5%E5%87%BD%E6%95%B0%E5%BA%94%E7%94%A8/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">#include &lt;math.h&gt; </span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line"></span><br><span class="line">  double x,y;</span><br><span class="line"></span><br><span class="line">  scanf(&quot;%lf&quot;,&amp;x);</span><br><span class="line"></span><br><span class="line">  if(x&gt;&#x3D;0 &amp;&amp; x&lt;&#x3D;8)</span><br><span class="line"></span><br><span class="line">    y&#x3D;sin(x)+2*x*x+10;</span><br><span class="line"></span><br><span class="line">  else</span><br><span class="line"></span><br><span class="line">    y&#x3D;fabs(x-3*x*x*x-9);</span><br><span class="line"></span><br><span class="line">  printf(&quot;y&#x3D;f(%.1f)&#x3D;%.1f\n&quot;,x,y);</span><br><span class="line"></span><br><span class="line"> return 0;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>c</tag>
@@ -125,7 +125,7 @@
   </entry>
   <entry>
     <title>1404</title>
-    <url>/2020/06/02/1404/</url>
+    <url>/2020/06/02/1404%E4%B9%A0%E9%A2%98%E4%B8%8E%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%AF%BC%E7%AC%AC4%E7%AB%A0451%E8%AE%A1%E7%AE%97%E4%B8%89%E8%A7%92%E5%BD%A2%E9%9D%A2%E7%A7%AF/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include   &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">#include   &lt;math.h&gt;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line"></span><br><span class="line">	float a,b,c,s1,area;</span><br><span class="line"></span><br><span class="line">	scanf(&quot;%f %f %f&quot;,&amp;a,&amp;b,&amp;c);</span><br><span class="line"></span><br><span class="line">	if((a+b&gt;c)&amp;&amp;(a+c&gt;b)&amp;&amp;(b+c&gt;a))</span><br><span class="line">	&#123;s1&#x3D;(a+b+c)&#x2F;2.0;</span><br><span class="line"></span><br><span class="line">	area&#x3D;sqrt(s1*(s1-a)*(s1-b)*(s1-c));</span><br><span class="line"></span><br><span class="line">	printf(&quot;area&#x3D;%.1f\n&quot;,area);</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	else</span><br><span class="line"></span><br><span class="line">		printf(&quot;不能构成三角形\n&quot;);</span><br><span class="line"></span><br><span class="line">return 0;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>c</tag>
@@ -133,7 +133,7 @@
   </entry>
   <entry>
     <title>1403</title>
-    <url>/2020/06/02/1403/</url>
+    <url>/2020/06/02/1403%E4%B9%A0%E9%A2%98%E4%B8%8E%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%AF%BC%E7%AC%AC4%E7%AB%A0452%E8%AF%84%E5%AE%9A%E6%88%90%E7%BB%A9%E7%AD%89%E7%BA%A7APF/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  int score;&#x2F;&#x2F;???? </span><br><span class="line"></span><br><span class="line">  char degree;&#x2F;&#x2F;????</span><br><span class="line"></span><br><span class="line">  scanf(&quot;%d&quot;,&amp;score);</span><br><span class="line">  if(score&gt;&#x3D;85) </span><br><span class="line">  &#123;degree&#x3D;&#39;A&#39;;&#125; </span><br><span class="line">  else if(score&gt;&#x3D;60&amp;&amp;score&lt;84)</span><br><span class="line"> &#123; degree&#x3D;&#39;P&#39;;&#125; </span><br><span class="line">  else &#123; </span><br><span class="line">  degree&#x3D;&#39;F&#39;;</span><br><span class="line">  &#125; </span><br><span class="line">  printf(&quot;score&#x3D;%d,degree&#x3D;%c\n&quot;,score,degree);</span><br><span class="line"></span><br><span class="line">  return 0;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>c</tag>
@@ -141,7 +141,7 @@
   </entry>
   <entry>
     <title>1402</title>
-    <url>/2020/06/02/1402/</url>
+    <url>/2020/06/02/1402%E4%B9%A0%E9%A2%98%E4%B8%8E%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%AF%BC%E7%AC%AC4%E7%AB%A043%E4%B8%89%E4%B8%AA%E6%95%B0%E7%9A%84%E6%8E%92%E5%BA%8F/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">	int a,b,c,t;</span><br><span class="line"></span><br><span class="line">	scanf(&quot;%d%d%d&quot;,&amp;a,&amp;b,&amp;c);</span><br><span class="line"></span><br><span class="line">	if(a&gt;b)&#123;t&#x3D;a;a&#x3D;b;b&#x3D;t;&#125;</span><br><span class="line"></span><br><span class="line">	if(a&gt;c)&#123;t&#x3D;a;a&#x3D;c;c&#x3D;t;&#125;</span><br><span class="line"></span><br><span class="line">	if(b&gt;c)&#123;t&#x3D;b;b&#x3D;c;c&#x3D;t;&#125;</span><br><span class="line"></span><br><span class="line">	printf(&quot;%d&lt;%d&lt;%d\n&quot;,a,b,c);</span><br><span class="line"></span><br><span class="line">         return 0;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>c</tag>
@@ -149,7 +149,7 @@
   </entry>
   <entry>
     <title>1401</title>
-    <url>/2020/06/02/1401/</url>
+    <url>/2020/06/02/1401%E4%B9%A0%E9%A2%98%E4%B8%8E%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%AF%BC%E7%AC%AC3%E7%AB%A0351,hhmmss%E8%BD%AC%E6%88%90%E6%80%BB%E7%A7%92%E6%95%B0/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">  int hh,mm,ss,zms;</span><br><span class="line"></span><br><span class="line">  scanf(&quot;%d:%d:%d&quot;,&amp;hh,&amp;mm,&amp;ss);</span><br><span class="line"></span><br><span class="line">  zms&#x3D;hh*3600+mm*60+ss;</span><br><span class="line"></span><br><span class="line">  printf(&quot;zms&#x3D;%d\n&quot;,zms);</span><br><span class="line"></span><br><span class="line">  return 0;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>c</tag>
@@ -157,7 +157,7 @@
   </entry>
   <entry>
     <title>1400</title>
-    <url>/2020/06/02/1400/</url>
+    <url>/2020/06/02/1400%E4%B9%A0%E9%A2%98%E4%B8%8E%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%AF%BC%E7%AC%AC2%E7%AB%A0251%E5%8D%8E%E6%B0%8F%E8%BD%AC%E6%91%84%E6%B0%8F%E6%B8%A9%E5%BA%A6/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">  float f,c;</span><br><span class="line"></span><br><span class="line">  scanf(&quot;%f&quot;,&amp;f);</span><br><span class="line"></span><br><span class="line">  c&#x3D;5*(f-32)&#x2F;9;</span><br><span class="line"></span><br><span class="line">  printf(&quot;c&#x3D;%.1f\n&quot;,c);</span><br><span class="line"></span><br><span class="line">  return 0;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>c</tag>
